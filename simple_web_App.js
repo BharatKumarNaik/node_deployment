@@ -14,5 +14,5 @@ const server = http.createServer((req, res) => {
 });
 
 
-const port = process.env.PORT || 1337;
+const port =3000;
 server.listen(port);
