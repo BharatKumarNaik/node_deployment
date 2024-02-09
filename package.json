@@ -1,0 +1,28 @@
+{
+  "name": "node_demo",
+  "version": "1.0.0",
+  "description": "GeeksForGeeks",
+  "main": "simple_web_App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node simple_web_App.js"
+  },
+  "engines": {
+    "node": ">=7.6.0",
+    "npm": ">=4.1.2"
+  },
+  "author": "GeeksForGeeks",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-validator": "^3.1.2",
+    "mongoose": "^4.8.7",
+    "nodemon": "^1.14.12"
+  },
+  "devDependencies": {},
+  "repository": {
+  },
+  "bugs": {
+  }
+}
