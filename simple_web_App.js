@@ -13,8 +13,6 @@ const server = http.createServer((req, res) => {
     });
 });
 
-// Listen on port 3000, IP defaults to 127.0.0.1 (localhost)
-const port=process.env.PORT || 3000;
-server.listen(port, () => {
-  console.log('Server running');
-});
+
+const port = process.env.PORT || 1337;
+server.listen(port);
